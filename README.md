@@ -23,3 +23,18 @@
 4. Open **Outlook** and use the new signature
 	1. File / Options
 	2. Mail / Signatures
+
+## Microsoft Outlook (macOS)
+Waiting for the public AppleScript:
+```
+Hello,
+
+After speaking with someone on the Outlook team, they provided me with the following information:
+
+Linking to images for signatures is supported in the current version, however you need to use an Applescript to add the signature link to Outlook. The script will need to launch Outlook and add the signature directly to the signature preferences.
+
+If you would like an example version of this script that references the Microsoft logo, let me know and I can send you a direct message here on the forums with the script file.
+
+-Jesse
+```
+https://answers.microsoft.com/en-us/msoffice/forum/msoffice_outlook-mso_mac-mso_mac2016/microsoft-outlook-on-mac-html-email-signatures/0a72aec1-3fba-4774-abbf-f3f8550a33b0
