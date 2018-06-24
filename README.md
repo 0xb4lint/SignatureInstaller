@@ -4,14 +4,14 @@
 1. Open **Mail**
 2. Preferences / Signatures
 3. Create a new one (or edit an existing) with dummy text
-4. Quit from Mail
+4. Quit from **Mail**
 5. Open **Terminal**
 6. Copy-Paste-Run this command:
 	```
-	curl https://raw.githubusercontent.com/valentinxxx/SignatureInstaller/master/apple-mail.sh | bash -s "SIGNATURE_HTML_URL"
+	curl https://raw.githubusercontent.com/valentinxxx/SignatureInstaller/master/apple-mail.sh | bash
 	```
-	*(replace `SIGNATURE_HTML_URL`)*
-7. Open **Mail** and use the new signature
+7. Enter the URL of the HTML signature
+8. Open **Mail** and use the new signature
 
 ## Microsoft Outlook (Windows) – [outlook-windows.ps1](outlook-windows.ps1)
 1. **Command Prompt** *(cmd.exe)*

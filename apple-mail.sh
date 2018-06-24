@@ -28,7 +28,9 @@ load_signature_file() {
 download_signature() {
 	echo "downloading signature..."
 
-	local SIGNATURE_URL="$1"
+	echo "enter url:"
+	read SIGNATURE_URL
+
 	if [[ -z "$SIGNATURE_URL" ]]; then
 		echo "missing url"
 		exit 1
@@ -74,5 +76,5 @@ setup_signature() {
 
 
 load_signature_file
-download_signature "$1"
+download_signature
 setup_signature
