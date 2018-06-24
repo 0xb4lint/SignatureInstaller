@@ -65,7 +65,9 @@ setup_signature() {
 
 	SIGNATURE="$SIGNATURE\n\n$SIGNATURE_HTML"
 
+	chflags nouchg "$SIGNATURE_FILE"
 	echo -e "$SIGNATURE" > "$SIGNATURE_FILE"
+	chflags uchg "$SIGNATURE_FILE"
 
 	echo "done."
 }
