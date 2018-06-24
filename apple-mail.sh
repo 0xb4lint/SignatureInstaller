@@ -29,7 +29,8 @@ download_signature() {
 	echo "downloading signature..."
 
 	echo "enter url:"
-	read SIGNATURE_URL
+	exec 3<>/dev/tty
+	read -u 3 SIGNATURE_URL
 
 	if [[ -z "$SIGNATURE_URL" ]]; then
 		echo "missing url"
