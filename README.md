@@ -37,4 +37,4 @@ If you would like an example version of this script that references the Microsof
 
 -Jesse
 ```
-https://answers.microsoft.com/en-us/msoffice/forum/msoffice_outlook-mso_mac-mso_mac2016/microsoft-outlook-on-mac-html-email-signatures/0a72aec1-3fba-4774-abbf-f3f8550a33b0
+https://answers.microsoft.com/en-us/msoffice/forum/msoffice_officeinsider-mso_mac-msoinsider_outlook/outlook-v1520-signature-now-has-image-embedded-not/75a51b8f-78cf-48cd-8199-33fefaec73d0
