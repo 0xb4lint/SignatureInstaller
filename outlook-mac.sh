@@ -33,6 +33,16 @@ tell application id "com.microsoft.Outlook"
 end tell
 END
 
+	if [ -f "$HOME/Library/Preferences/com.microsoft.Outlook.plist" ]; then
+		defaults write "$HOME/Library/Preferences/com.microsoft.Outlook.plist" "AutomaticallyDownloadExternalContent" -int 2
+		defaults write "$HOME/Library/Preferences/com.microsoft.Outlook.plist" "Send Pictures With Document" -int 0
+	fi
+
+	if [ -f "$HOME/Library/Containers/com.microsoft.Outlook/Data/Library/Preferences/com.microsoft.Outlook.plist" ]; then
+		defaults write "$HOME/Library/Containers/com.microsoft.Outlook/Data/Library/Preferences/com.microsoft.Outlook.plist" "AutomaticallyDownloadExternalContent" -int 2
+		defaults write "$HOME/Library/Containers/com.microsoft.Outlook/Data/Library/Preferences/com.microsoft.Outlook.plist" "Send Pictures With Document" -int 0
+	fi
+
 	echo "done."
 }
 
