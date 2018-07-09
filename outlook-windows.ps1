@@ -12,6 +12,7 @@ IF ($osVersion -ge 10) {
 
 $wc = New-Object System.Net.WebClient
 $wc.Encoding = [System.Text.Encoding]::UTF8
+$wc.CachePolicy = New-Object System.Net.Cache.HttpRequestCachePolicy([System.Net.Cache.HttpRequestCacheLevel]::NoCacheNoStore)
 $signatureHTML = $wc.DownloadString($url)
 
 mkdir $FolderLocation -force
