@@ -8,7 +8,7 @@
 5. Open **Terminal**
 6. Copy-Paste-Run this command:
 	```
-	curl https://raw.githubusercontent.com/valentinxxx/SignatureInstaller/master/apple-mail.sh | bash
+	curl https://raw.githubusercontent.com/0xB4LINT/SignatureInstaller/master/apple-mail.sh | bash
 	```
 7. Enter the URL of the HTML signature
 8. Open **Mail** and use the new signature
@@ -17,7 +17,7 @@
 1. Open **Terminal**
 2. Copy-Paste-Run this command:
 	```
-	curl https://raw.githubusercontent.com/valentinxxx/SignatureInstaller/master/outlook-mac.sh | bash
+	curl https://raw.githubusercontent.com/0xB4LINT/SignatureInstaller/master/outlook-mac.sh | bash
 	```
 3. Enter the URL of the HTML signature
 4. Open **Outlook** and use the new signature
@@ -27,7 +27,7 @@
 1. **Command Prompt** *(cmd.exe)*
 2. Copy-Paste-Run this command:
 	```
-	powershell.exe -Command "IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/valentinxxx/SignatureInstaller/master/outlook-windows.ps1')"
+	powershell.exe -Command "IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/0xB4LINT/SignatureInstaller/master/outlook-windows.ps1')"
 	```
 3. Enter the URL of the HTML signature
 4. Open **Outlook** and use the new signature
